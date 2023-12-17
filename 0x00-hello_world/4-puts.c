@@ -1,5 +1,10 @@
+#include <stdio.h>
 /**
-*main-thisisthemainputfunction
-*Return:(0);
-**/
- 
+ *main - main entry point
+ *Return:none
+ */
+int main(void)
+{
+puts("Programming is like building a multilingual puzzle");
+return (0);
+}
