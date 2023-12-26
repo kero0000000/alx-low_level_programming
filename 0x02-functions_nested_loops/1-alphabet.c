@@ -1,13 +1,13 @@
-#include <stdio.h>
+#include "main.h"
+/**
+ * print_alphabet - make the alphabet
+ *
+ * Return:void
+ **/
 void print_alphabet(void)
 {
-char letter = 'a';
-while (letter <= 'z')
-_putchar(letter);
-letter++;
+char ch;
+for (ch = 'a'; ch <= 'z'; ch++)
+_putchar(ch);
 _putchar('\n');
-int main(void)
-{
-print_alphabet();
-return (0);
 }
