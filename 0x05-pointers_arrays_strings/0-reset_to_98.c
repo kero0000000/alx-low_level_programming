@@ -3,9 +3,10 @@
  * reset_to_98_afunction that takes apointer to an int as prarmeter
  * and updates the value it points to to 98
  * @n:input
- * Return: n 
- */
+ * Return: n
+ **/
 void reset_to_98(int *n)
 {
-	*n=98;
+*n = 98;
+return (*n);
 }
