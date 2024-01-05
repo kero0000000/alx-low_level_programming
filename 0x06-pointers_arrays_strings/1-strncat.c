@@ -1,4 +1,4 @@
-#include<main.h>
+#include "main.h"
 /**
  * _strncat - the function name
  * @dest:function paramter one
